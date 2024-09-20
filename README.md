@@ -1,16 +1,19 @@
-# lebs
+### How to run All lebs
 
-A new Flutter project.
+## All leb code in Lib folder ->   flutter_Diplom_Sem_5_Leb/lib
 
-## Getting Started
+1. clone this code on your local computer
+```
+git clone https://github.com/Paresh2578/flutter_Diplom_Sem_5_Leb.git
+```
 
-This project is a starting point for a Flutter application.
+2. redirect to project folder
+```
+cd flutter_Diplom_Sem_5_Leb
+```
 
-A few resources to get you started if this is your first Flutter project:
+3. run project
+```
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
