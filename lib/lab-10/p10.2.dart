@@ -1,1 +1,0 @@
-// Exercise 10.2 has already been studied in previous labs; therefore, it does not require writing a program.
