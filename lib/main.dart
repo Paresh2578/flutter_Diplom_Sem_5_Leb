@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:lebs/leb-6/diffrent_size_9%20copy.dart';
+import 'package:lebs/leb-6/equal_size_9.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,6 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+      home: DiffrentSize(),
     );
   }
 }
