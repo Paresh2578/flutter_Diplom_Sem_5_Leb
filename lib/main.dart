@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lebs/leb-6/diffrent_size_9%20copy.dart';
-import 'package:lebs/leb-6/equal_size_9.dart';
+import 'package:lebs/lab-7/TextFieldCustomization.dart';
+import 'package:lebs/lab-7/TextFieldToTextWidget.dart';
+import 'package:lebs/lab-8/ImageAsset.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: DiffrentSize(),
+      home: ImageAsset(),
     );
   }
 }
