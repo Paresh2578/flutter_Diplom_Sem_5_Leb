@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lebs/lab-7/TextFieldCustomization.dart';
-import 'package:lebs/lab-7/TextFieldToTextWidget.dart';
-import 'package:lebs/lab-8/ImageAsset.dart';
+import 'package:lebs/lab-20/PaginatedListView.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ImageAsset(),
+      home: PaginatedListView(),
     );
   }
 }
