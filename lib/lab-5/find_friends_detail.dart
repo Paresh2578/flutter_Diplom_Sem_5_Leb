@@ -18,6 +18,18 @@ class Friend {
   }
 }
 
+class Stu {
+  int roll;
+  String name;
+
+  Stu({required this.roll, required this.name});
+
+  void displayDetails() {
+    print('Roll: $roll');
+    print('Name: $name');
+  }
+}
+
 void main() {
   Map<String, Friend> friendsMap = {
     'John': Friend(name: 'John', age: 25, phoneNumber: '123-456-7890'),
